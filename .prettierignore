@@ -1,0 +1,19 @@
+# Ignore everything
+/*
+
+# Except these files & folders
+!/src
+!/src/**
+!index.html
+!package.json
+!tailwind.config.js
+!tsconfig.json
+!tsconfig.node.json
+!vite.config.ts
+!.prettierrc
+!README.md
+!eslint.config.js
+!postcss.config.js
+
+# Still explicitly ignore this generated file
+/src/routeTree.gen.ts
