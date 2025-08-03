@@ -19,5 +19,10 @@ export default tseslint.config([
       ecmaVersion: 2020,
       globals: globals.browser,
     },
+    rules: {
+      "react-refresh/only-export-components": "off",
+      "react-hooks/rules-of-hooks": "error",
+      "@typescript-eslint/no-unused-vars": "warn",
+    },
   },
 ]);
