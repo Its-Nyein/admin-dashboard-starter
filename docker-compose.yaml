@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  react-app:
+    build: ./admin-dashboard-starter
+    container_name: admin-dashboard-starter
+    ports:
+      - "80:80"
+    restart: always
